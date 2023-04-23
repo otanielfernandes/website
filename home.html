@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--Links para os icones-->
+    <link rel="stylesheet" href="icons/all.min.css">
+    <link rel="stylesheet" href="icons/fontawesome.min.css">
+    <link rel="stylesheet" href="css-external/style-home.css">
+
+</head>
+<body>
+    <!--Navbar do Web site-->
+        <nav class="container mx-auto navbar navbar-expand-lg bg-body ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"><img src="img/transparent-logo.png" alt="Logotipo do Instituto"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!--Página Inicial-->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                    <!--Página sobre o IPIAL-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SOBRE O IPIAL
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Nossa História</a></li>
+                      <li><a class="dropdown-item" href="#">Missões e Valores</a></li>
+                      <li><a class="dropdown-item" href="#">Instituição</a></li>
+                      <li><a class="dropdown-item" href="#">Infraestrutura</a></li>
+                      <li><a class="dropdown-item" href="#">Nossos Quadros</a></li>
+                    </ul>
+        
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ALUNO
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pauta</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ANÚNCIOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contatos.html">CONTATOS</a>
+                  </li>
+        
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+        <!--Carrosel de Imagem Principal-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/predio.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Olá, seja bem-vindo</h2>
+              <h5>Este é o Website do Intituto Politécnico Industrial Alda Lara</h5>
+              <button type="button" class="btn btn-primary">Fazer Inscrição!</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/relogio.jpg" class="d-block w-100" alt="Relógio">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Instituto Politécnico Industrial Alda Lara</h5>
+              <h2>Desde 2002 ensinando que primeiro devemos sentar pra aprender, e depois levantar para ensinar</h2>
+              <button type="button" class="btn btn-primary">Conhecer o IPIAL</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/estudantes.jpg" class="d-block w-100" alt="Estudantes">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Instituto Politécnico Industrial Alda Lara</h5>
+              <h2>Formando Técnicos Médios com muito rigor</h2>
+              <button type="button" class="btn btn-primary">Conheça nossos cursos</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!--Card sobre o IPIAL-->
+      <div class="card mb-3 mt-2" style="width:100%">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/card.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Instituto Politécnico Industrial Alda Lara</h4>
+              <p class="card-text">O Instituto Politécnico Industrial Alda Lara foi fundado no dia 28 de Fevereiro, com o objetivo de dotar o País com quadros nacionais com capacidade de acompanhar a evolução das novas tecnologias no ramo das telecomunicações e teledifusão afim de gerir os sistemas complexos desse ramo já instalados no País, traduzindo a orientação do 1º Congresso do MPLA-Partido do trabalho,O Instituto Politécnico Industrial Alda Lara foi fundado no dia 28 de Fevereiro, com o objetivo de dotar o País com quadros nacionais com capacidade de acompanhar a evolução das novas tecnologias no ramo das telecomunicações e teledifusão afim de gerir os sistemas complexos desse ramo já instalados no País, traduzindo, O Instituto Politécnico Industrial Alda Lara foi fundado no dia 28 de Fevereiro, com o objetivo de dotar o País com quadros nacionais com sistemas.</p>
+              <p><a href="#" class="link-underline-primary">SABER MAIS SOBRE NOSS HISTÓRIA</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Horizontal Rule-->
+      <div class="text-success">
+        <hr>
+      </div>
+      <hr class="border border-primary border-1.5 opacity-75">
+      <h3>Nossos Cursos</h3>
+      <hr class="border border-primary border-1.5 opacity-75">
+
+      <!--Nossos Cursos Disponíveis-->
+      <div class="card-group m-5">
+        <div class="card">
+          <img src="img/const_civil.jpg" class="card-img-top" alt="Construção Cívil">
+          <div class="card-body">
+            <h5 class="card-title">Construção Cívil</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p><a href="#" class="link-underline-primary">SABER MAIS</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/eletricidade.jpg" class="card-img-top" alt="Eletricidade">
+          <div class="card-body">
+            <h5 class="card-title">Eletricidade</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p><a href="#" class="link-underline-primary">SABER MAIS</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/electronica.jpg" class="card-img-top" alt="Electrónica e Telecomunicações">
+          <div class="card-body">
+            <h5 class="card-title">Electrónica e Telecomunicações</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p><a href="#" class="link-underline-primary">SABER MAIS</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+            <img src="img/informatica.jpg" class="card-img-top" alt="Informática">
+            <div class="card-body">
+              <h5 class="card-title">Informática</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p><a href="#" class="link-underline-primary">SABER MAIS</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Nossos Parceiros-->
+    <h5>Nossos Parceiros</h5>
+    <div class="container-fluid mx-auto">
+       <div class="container mx-auto px-5"><a href="https://www.unitel.ao/particulares/" target="_blank"><img src="img/unitel.png" alt="Logo Unitel"></a>
+        <a href="https://movicel.co.ao/index.html" target="_blank"><img src="img/movicel.png" alt="Logo Movicel"></a>
+        <a href="https://www.huawei.com/en/" target="_blank"><img src="img/huawei.png" alt="Logo Huawei"></a>
+        <a href="https://www.planad.co.ao/" target="_blank"><img src="img/planad.jpg" alt="Logo Planad"></a>
+        </div>
+    </div>
+    <!--Princípio do Cabeçalho-->
+    <footer class="container-fluid text-white bg-dark">
+       <div class="row pt-5 pb-5">
+            <section class="col-md-3">
+                <h6>CONTATOS</h6>
+                    <ul>
+                        <li>
+                            <a href="tel:+244937908390">912345678</a>
+                        </li>
+                        <li>
+                            <a href="tel:+244937908390">912345678</a>
+                        </li>
+                        <li>
+                            <a href="#">ipialadalra@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="">Angola-Luanda, Mun. Ingombotas</a>
+                        </li>
+                    </ul>
+            </section>
+                
+
+            <section class="col-md-3">
+                <h6>LINKS ÚTEIS</h6>
+                    <ul>
+                        <li>
+                            <a href="https://www.jornaldeangola.ao/ao/" target="_blank">Jornal de Angola</a>
+                        </li>
+                        <li>
+                            <a href="https://governo.gov.ao/" target="_blank">Governo de Angola</a>
+                        </li>
+                        <li>
+                            <a href="https://med.gov.ao/ao/" target="_blank">Ministério da Educação</a>
+                        </li>
+                        <li>
+                            <a href="https://minttics.gov.ao/ao/" target="_blank">MINTICS</a>
+                        </li>
+                    </ul>
+            </section>        
+
+            <section class="col-md-3">
+                <h6>CURSOS</h6>
+                    <ul>
+                        <li><a href="#">Construção Cívil</a></li>
+                        <li><a href="#">Eletricidade</a></li>
+                        <li><a href="#">Electrónica e Telecomunicações</a></li>
+                        <li><a href="#">Informática</a></li>
+                    </ul>
+            </section>    
+
+            <section class="col-md-3">
+                <h6>REDES SOCIAIS</h6>
+                    <div class="container mx-2 pt-2 pb-2">
+                        <!--Icones das redes sociais-->
+                        <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+
+                        <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                        
+                        <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
+                    </div>
+            </section>
+        <p><b><span style="margin-right:0.5%;">@</span>2023 IPIAL-Instituto Politécnico Industrial Alda Lara <span>| TODOS OS DIREITOS RESERVADOS</span></b></p>        
+        </div>
+    </footer>
+
+    <!--Link do Java Script(Bootstrap)-->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
