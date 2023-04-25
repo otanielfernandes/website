@@ -30,3 +30,44 @@ a.decoration{
 a.decoration:hover{
     color:#06339a
 }
+
+
+div.pai-noticia{
+    display:flex;
+    direction:row;
+    justify-content: flex-end;
+    
+}
+
+div.pdf-noticia{
+    margin-bottom:30px;
+    margin-top: 30px;
+    width:200px;
+    height:300px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 50px;
+    
+}
+div.self1{
+    margin:auto;
+    border: 3px solid rgb(182, 128, 21);
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+    align-items: start;
+
+}
+
+div.self2{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(182, 128, 21);
+    
+}
+
+button.botao-visualizar{
+    border-radius: 5px;
+    border: 2px solid rgb(182, 128, 21);
+    
+}
