@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="icons/all.min.css">
     <link rel="stylesheet" href="icons/fontawesome.min.css">
     <link rel="stylesheet" href="css-external/style-home.css">
+    <link rel="stylesheet" href="css-external/style-contato.css">
 
 </head>
 <body>
@@ -78,15 +79,15 @@
         
         <div class="container row pt-5 pb-5 mx-auto">
             <section class="col-md-4">
-                <h5><i class="fa-solid fa-phone fa-lg"></i><a href="tel:+244912345678">(+244) 912 345 678</a></h5>
+                <h5><i class="fa-solid fa-phone fa-lg" style="color:#03369a;"></i><a href="tel:+244912345678" class="link" style="color:#03369a;">(+244) 912 345 678</a></h5>
             </section>
 
             <section class="col-md-4">
-                <h5><i class="fa-solid fa-phone fa-lg"></i><a href="tel:+244912345678">(+244) 912 345 678</a></h5>
+                <h5><i class="fa-solid fa-phone fa-lg" style="color:#03369a;"></i><a href="tel:+244912345678" style="color:#03369a;" class="link">(+244) 912 345 678</a></h5>
             </section>
 
             <section class="col-md-4">
-                <h5><i class="fa-brands fa-whatsapp fa-lg" style="color: #0d7468;"></i><a href="tel:+244912345678">(+244) 912 345 678</a></h5>
+                <h5><i class="fa-brands fa-whatsapp fa-lg" style="color:#03369a;"></i><a href="tel:+244912345678" style="color:#03369a;" class="link">(+244) 912 345 678</a></h5>
             </section>
             <hr class="border border-primary border-1 opacity-100 ">
         </div>
@@ -94,9 +95,33 @@
 
       <!--Formulário de contactos-->
       
-     <div style="width:50px; height:450px; background-color: black;">
+     <div class="contato">
+      <h4 class="text-center title-contato">Como posso ajudar ?</h4>
 
+      <p class="title-entrada">Nome</p>
+      <div class="input-group flex-nowrap entrada-form">
+        <input type="text" class="form-control text-center" placeholder="Digite seu nome" aria-label="Username" aria-describedby="addon-wrapping">
       </div>
+
+      <p class="title-entrada">Email</p>
+      <div class="input-group flex-nowrap entrada-form">
+        <input type="email" class="form-control text-center" placeholder="Informe seu Email" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+
+      <p class="title-entrada">Assunto</p>
+      <div class="input-group flex-nowrap entrada-form">
+        <input type="text" class="form-control text-center" placeholder="De que assunto se trata ?" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+
+      <p class="title-entrada">Mensagem</p>
+      <div class="form-floating entrada-form">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Descreva o assunto</label>
+      </div>
+      <div class="posicao">
+        <button type="button" class="botao-enviar">Enviar</button>
+      </div>
+    </div>
 
    <!--Princípio dor rodape-->
    <footer class="container-fluid text-white rodape">

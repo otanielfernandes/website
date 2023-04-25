@@ -1,0 +1,45 @@
+
+/*Estilo do formulário de contactos*/
+div.contato{
+    width:55%;
+    height:490px;
+    background-color: #06339a;
+    border-radius:15px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+h4.title-contato{
+    color:#ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #fa9c28;
+}
+
+div.entrada-form{
+    width: 75%;
+    margin:auto;
+}
+p.title-entrada{
+    text-align: center;
+    color:white;
+    margin-bottom: 10px;
+}
+
+button.botao-enviar{
+    margin-top: 15px;
+    width: 15%;
+    height: 35px;
+    background-color: #fa9c28;
+    color:#06339a;
+    border-radius:3px;
+}
+
+button.botao-enviar:hover{
+    background-image:linear-gradient(90deg, #fa9c28, yellow);
+}
+
+div.posicao{
+    display: flex;
+    justify-content: end;
+    margin-right:15px;
+}
