@@ -9,8 +9,29 @@
     height: 70px;
     background-color: #fff;
 }
+/*Botão de inscrição*/
+button.botao_inscricao{
+    background-color: #06337A;
+    font-weight: 500;
+    font-size: 1.2em;
+    color:#ffffff;
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+}
+/*Ao passar o mouse por cima*/
+button.botao_inscricao:hover{
+    background-color: #011d4b;
+    color:#ffffff;
 
+}
 
+/*Posicionamento dos h5 do carrosel de imagem*/
+
+h5.posicao{
+    
+    
+}
 
 
 /*Cor de fundo do Rodapé*/
@@ -30,6 +51,10 @@ a.link{
     text-decoration: none;
     font-weight:500;
     color:#ffffff;
+}
+
+a.link2:hover{
+    color:#fa9c28;
 }
 
 
