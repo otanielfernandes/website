@@ -14,15 +14,15 @@
 </head>
 <body>
   <header class="header d-flex fixed-top align-items-center">
-    hdhfh
+    <a class="navbar-brand" href="home.html"><img src="img/transparent-logo.png" alt="Logotipo do Instituto" style="width:100px; height:75px;"></a>
     <nav class="d-flex justify-content-flex-end justify-content-center mx-auto navbar navbar-expand-lg" style="width: 100%;">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active alter" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li> 
           <!--Página sobre o IPIAL-->
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             SOBRE O IPIAL
           </a>
           <ul class="dropdown-menu">
@@ -30,7 +30,14 @@
             <li><a class="dropdown-item" href="#">Missões e Valores</a></li>
             <li><a class="dropdown-item" href="#">Instituição</a></li>
             <li><a class="dropdown-item" href="#">Infraestrutura</a></li>
-            <li><a class="dropdown-item" href="#">Nossos Quadros</a></li>
+
+            <li class="dropend">
+              <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Nossos Quadros</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Perfil do Diretor</a></li>
+                <li><a href="#" class="dropdown-item">Outros Quadros</a></li>
+              </ul>
+            </li>
           </ul>
 
         </li>
@@ -43,10 +50,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link alter" href="#">ANÚNCIOS</a>
+          <a class="nav-link" href="#">ANÚNCIOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link alter" href="contatos.html">CONTATOS</a>
+          <a class="nav-link" href="contatos.html">CONTATOS</a>
         </li>
 
       </ul>
@@ -165,7 +172,7 @@
         <hr>
       </div>
       <hr class="border border-primary border-1.5 opacity-75">
-      <h3 class="text-center">Nossos Cursos</h3>
+      <h5 class="text-center">Nossos Cursos</h5>
       <hr class="border border-primary border-1.5 opacity-75">
 
       <!--Nossos Cursos Disponíveis-->
@@ -208,7 +215,7 @@
     </div>
 
     <!--Nossos Parceiros-->
-    <h5>Nossos Parceiros</h5>
+    <h5 class="text-center">Nossos Parceiros</h5>
     <div class="container-fluid mx-auto">
        <div class="container mx-auto px-5"><a href="https://www.unitel.ao/particulares/" target="_blank"><img src="img/unitel.png" alt="Logo Unitel"></a>
         <a href="https://movicel.co.ao/index.html" target="_blank"><img src="img/movicel.png" alt="Logo Movicel"></a>
@@ -216,23 +223,25 @@
         <a href="https://www.planad.co.ao/" target="_blank"><img src="img/planad.jpg" alt="Logo Planad"></a>
         </div>
     </div>
+
     <!--Princípio do Cabeçalho-->
-    <footer class="container-fluid text-white bg-dark">
-       <div class="row pt-5 pb-5">
-            <section class="col-md-3">
+    <footer class="container-fluid text-white rodape">
+       <div class="container row pt-3 pb-2 mx-auto">
+
+            <section class="col-md-4">
                 <h6>CONTATOS</h6>
-                    <ul>
+                    <ul class="list">
                         <li>
-                            <a href="tel:+244937908390">912345678</a>
+                            <a href="tel:+244937908390" class="link"><i class="fa-sharp fa-solid fa-phone fa-bounce fa-2xs space" style="color: #fa9c28;"></i>912345678</a>
                         </li>
                         <li>
-                            <a href="tel:+244937908390">912345678</a>
+                            <a href="tel:+244937908390" class="link"><i class="fa-sharp fa-solid fa-phone fa-bounce fa-2xs space" style="color: #fa9c28;"></i>912345678</a>
                         </li>
                         <li>
-                            <a href="#">ipialadalra@gmail.com</a>
+                            <a href="#" class="link"><i class="fa-sharp fa-regular fa-envelope fa-fade fa-xs space" style="color: #fa9c28;"></i>ipialadalra@gmail.com</a>
                         </li>
                         <li>
-                            <a href="">Angola-Luanda, Mun. Ingombotas</a>
+                            <a href="#" class="link"><i class="fa-sharp fa-solid fa-location-dot fa-xs space" style="color: #fa9c28;"></i>Angola-Luanda, Mun. Ingombotas</a>
                         </li>
                     </ul>
             </section>
@@ -240,44 +249,45 @@
 
             <section class="col-md-3">
                 <h6>LINKS ÚTEIS</h6>
-                    <ul>
+                    <ul class="list">
                         <li>
-                            <a href="https://www.jornaldeangola.ao/ao/" target="_blank">Jornal de Angola</a>
+                            <a href="https://www.jornaldeangola.ao/ao/" target="_blank" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Jornal de Angola</a>
                         </li>
                         <li>
-                            <a href="https://governo.gov.ao/" target="_blank">Governo de Angola</a>
+                            <a href="https://governo.gov.ao/" target="_blank" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Governo de Angola</a>
                         </li>
                         <li>
-                            <a href="https://med.gov.ao/ao/" target="_blank">Ministério da Educação</a>
+                            <a href="https://med.gov.ao/ao/" target="_blank" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Ministério da Educação</a>
                         </li>
                         <li>
-                            <a href="https://minttics.gov.ao/ao/" target="_blank">MINTICS</a>
+                            <a href="https://minttics.gov.ao/ao/" target="_blank" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>MINTICS</a>
                         </li>
                     </ul>
             </section>        
 
             <section class="col-md-3">
                 <h6>CURSOS</h6>
-                    <ul>
-                        <li><a href="#">Construção Cívil</a></li>
-                        <li><a href="#">Eletricidade</a></li>
-                        <li><a href="#">Electrónica e Telecomunicações</a></li>
-                        <li><a href="#">Informática</a></li>
+                    <ul class="list">
+                        <li><a href="#" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Construção Cívil</a></li>
+                        <li><a href="#" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Eletricidade</a></li>
+                        <li><a href="#" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Electrónica</a></li>
+                        <li><a href="#" class="link"><i class="fa-solid fa-chevron-right fa-xs space" style="color: #fa9c28;"></i>Informática</a></li>
                     </ul>
             </section>    
 
-            <section class="col-md-3">
+            <section class="col-md-2">
                 <h6>REDES SOCIAIS</h6>
-                    <div class="container mx-2 pt-2 pb-2">
+                    <div class="container mx-2 pt-2 pb-2 mx-auto">
                         <!--Icones das redes sociais-->
-                        <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+                        <a href="https://www.facebook.com/groups/285320911631577" target="_blank"><i class="fa-brands fa-facebook fa-xl space" style="color: #ffffff;"></i></a>
 
-                        <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                        <a href="https://www.instagram.com/explore/locations/1016981729/alda-lara-impal/" target="_blank"><i class="fa-brands fa-instagram fa-xl space" style="color: #ffffff;"></i></a>
                         
-                        <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
-                    </div>
+                        <a href="#"><i class="fa-solid fa-envelope fa-lg space" style="color: #ffffff;"></i></a>
             </section>
-        <p><b><span style="margin-right:0.5%;">@</span>2023 IPIAL-Instituto Politécnico Industrial Alda Lara <span>| TODOS OS DIREITOS RESERVADOS</span></b></p>        
+                    </div>
+            
+        <p class="text-center"><b><span style="margin-right:0.5%;">@</span>2023 IPIAL-Instituto Politécnico Industrial Alda Lara <span>| TODOS OS DIREITOS RESERVADOS</span></b></p>        
         </div>
     </footer>
 
