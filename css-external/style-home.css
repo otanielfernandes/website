@@ -70,6 +70,7 @@ a.curso{
 }
 a.curso:hover{
     border-bottom: 3px solid #06337A;
+    color:#06337A;
 }
 
 
