@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="icons/all.min.css">
     <link rel="stylesheet" href="icons/fontawesome.min.css">
     <link rel="stylesheet" href="css-external/style-home.css">
-
+    <link rel="stylesheet" href="css-external/style-anuncio.css">
 </head>
 <body>
   <!--Navbar do site-->
@@ -19,7 +19,7 @@
     <nav class="d-flex justify-content-flex-end justify-content-center mx-auto navbar navbar-expand-lg" style="width: 100%;">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li> 
           <!--Página sobre o IPIAL-->
           <li class="nav-item dropdown">
@@ -51,7 +51,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ANÚNCIOS</a>
+          <a class="nav-link" href="anuncios.html">ANÚNCIOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contatos.html">CONTATOS</a>
@@ -61,8 +61,18 @@
     </nav>
   </header>
 
-  <!--Corpo da página anuncios-->
+  <!--Corpo do site-->
+  <div class="anuncio">
+      <h5 class="header-noticia">Notícias</h5>  
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb posicao">
+          <li class="breadcrumb-item"><a href="home.html" class="decoration">Página Inicial</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Notícias</li>
+        </ol>
+      </nav>
+    
 
+  </div>
 
   <!--Rodapé do site-->
   <footer class="container-fluid text-white rodape">
@@ -130,6 +140,8 @@
      <p class="text-center"><b><span style="margin-right:0.5%;">@</span>2023 IPIAL-Instituto Politécnico Industrial Alda Lara <span>| TODOS OS DIREITOS RESERVADOS</span></b></p>        
      </div>
  </footer>
+  
+
 
     <!--Link do Java Script(Bootstrap)-->
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>  

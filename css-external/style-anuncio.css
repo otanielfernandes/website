@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+div.anuncio{
+    width:100%;
+    height:80px;
+    margin-top:60px;
+    background-color: #fa9c28;
+}
+
+h5.header-noticia{
+    color:#41588f;
+    padding-top:20px;
+    padding-left:20px;
+
+}
+
+ol.posicao{
+    padding-left: 10px;
+}
+
+a.decoration{
+    text-decoration: none;
+    color:white;
+}
+
+a.decoration:hover{
+    color:#06339a
+}
